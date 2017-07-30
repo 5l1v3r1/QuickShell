@@ -16,4 +16,4 @@ Unlike many other attacks, QuickShell does not require an Internet Connection to
 The attack has been successfully completed, and within a few seconds, a new connection should pop up on your Computer. Mission accomplished.
 
 # Credits
-PyInfect was created by [@0xCoto](https://github.com/0xCoto) and [@danbatiste](https://github.com/danbatiste).
+PyInfect was created by [@0xCoto](https://github.com/0xCoto).
