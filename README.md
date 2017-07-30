@@ -7,7 +7,7 @@ Unlike many other attacks, QuickShell does not require an Internet Connection to
 ## How to perform the Attack
 1. Create a new Wi-Fi Network from your Computer, or have an Access Point do the job.
 2. Set the SSID of the Network to `q`, its encryption type to `WEP` and its Password to `quick`. Take note of the local IP Address of the device.
-3. Open up `QuickShell.txt` and replace `1.2.3.4` with your local IP Address.
+3. In the `6`th line of `QuickShell.txt`, replace `1.2.3.4` with your local IP Address.
 4. Ensure the Access Point is physically near the victim machine.
 5. On your side, connect to the Wi-Fi Network and open up Terminal.
 6. Then, execute the following command: `nc -l 4444`. *This will listen for connections on port `4444` using Netcat. If you do not have Netcat installed on your System, I recommend using EggShell.*
