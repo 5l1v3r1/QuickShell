@@ -28,3 +28,28 @@ The payload has been successfully deployed on the target machine and within a fe
 
 # Credits
 QuickShell was created by [@0xCoto](https://github.com/0xCoto).
+
+p18183@PC210-10:~$ df -h
+Filesystem                    Size  Used Avail Use% Mounted on
+udev                          1.9G     0  1.9G   0% /dev
+tmpfs                         387M   11M  376M   3% /run
+/dev/sda5                     111G   11G   94G  11% /
+tmpfs                         1.9G   55M  1.9G   3% /dev/shm
+tmpfs                         5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                         1.9G     0  1.9G   0% /sys/fs/cgroup
+//10.1.210.153/Homes/p18183/  165G   27G  130G  17% /tmp/home/p18183/SharedHomeDirectory
+tmpfs                         387M   48K  387M   1% /run/user/260803895
+p18183@PC210-10:~$ nc -zv 10.1.210.153 21
+10.1.210.153: inverse host lookup failed: Unknown host
+(UNKNOWN) [10.1.210.153] 21 (ftp) : Connection refused
+p18183@PC210-10:~$ nc -zv 10.1.210.153 22
+10.1.210.153: inverse host lookup failed: Unknown host
+(UNKNOWN) [10.1.210.153] 22 (ssh) open
+p18183@PC210-10:~$ nc -zv 10.1.210.153 23
+10.1.210.153: inverse host lookup failed: Unknown host
+(UNKNOWN) [10.1.210.153] 23 (telnet) : Connection refused
+p18183@PC210-10:~$ nc -zv 10.1.210.153 22
+10.1.210.153: inverse host lookup failed: Unknown host
+(UNKNOWN) [10.1.210.153] 22 (ssh) open
+p18183@PC210-10:~$ ^C
+p18183@PC210-10:~$ 
