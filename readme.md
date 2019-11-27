@@ -3,6 +3,8 @@
 * Version: Version 1.0
 * Target: Mac OS X
 
+### Disclaimer: All information provided are for educational purposes only. The information related to ethical hacking and information security found on this page are not meant to be used maliciously/illegally and the author is not responsible for any misuse of the provided information.
+
 # Description
 QuickShell allows you to instantly gain a local Shell on a Mac OS X Machine, in under 3 Seconds, with the help of the Hak5 [Bash Bunny](https://hakshop.com/products/bash-bunny)!
 
